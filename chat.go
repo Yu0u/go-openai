@@ -274,7 +274,7 @@ type ChatCompletionRequest struct {
 	// Metadata to store with the completion.
 	Metadata map[string]string `json:"metadata,omitempty"`
 	// Options for qwen3 model. like qwen-plus-latest qwen3, qwen-plus-latest default value is false. qwen3 default value is true.
-	EnableThinking bool `json:"enable_thinking,omitempty"`
+	EnableThinking *bool `json:"enable_thinking,omitempty"`
 	// Options for qwen3 model. like qwen-plus-latest qwen3, limit the token of reasoning.
 	ThinkingBudget int `json:"thinking_budget,omitempty"`
 }
