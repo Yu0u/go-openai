@@ -1,3 +1,3 @@
-module github.com/sashabaranov/go-openai
+module github.com/Yu0u/go-openai
 
 go 1.18
